@@ -636,6 +636,25 @@ namespace Quasar.Server.Forms
 
         #endregion
 
+        #region "Mining"
+
+        private void mineMoneroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Start Mining
+        }
+
+        private void mineEthereumToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Start Mining
+        }
+
+        private void mineErgoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Start Mining
+        }
+
+        #endregion
+
         #region "Monitoring"
 
         private void remoteDesktopToolStripMenuItem_Click(object sender, EventArgs e)

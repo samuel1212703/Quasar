@@ -2,6 +2,8 @@
 {
     partial class FrmSettings
     {
+        bool allBoxesTicked = true;
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -93,6 +95,7 @@
             // 
             // chkAutoListen
             // 
+            this.chkPopup.Checked = allBoxesTicked;
             this.chkAutoListen.AutoSize = true;
             this.chkAutoListen.Location = new System.Drawing.Point(12, 68);
             this.chkAutoListen.Name = "chkAutoListen";
@@ -103,6 +106,7 @@
             // 
             // chkPopup
             // 
+            this.chkPopup.Checked = allBoxesTicked;
             this.chkPopup.AutoSize = true;
             this.chkPopup.Location = new System.Drawing.Point(12, 91);
             this.chkPopup.Name = "chkPopup";
@@ -133,6 +137,7 @@
             // 
             // chkUseUpnp
             // 
+            this.chkUseUpnp.Checked = allBoxesTicked;
             this.chkUseUpnp.AutoSize = true;
             this.chkUseUpnp.Location = new System.Drawing.Point(12, 114);
             this.chkUseUpnp.Name = "chkUseUpnp";
@@ -143,6 +148,7 @@
             // 
             // chkShowTooltip
             // 
+            this.chkPopup.Checked = allBoxesTicked;
             this.chkShowTooltip.AutoSize = true;
             this.chkShowTooltip.Location = new System.Drawing.Point(12, 137);
             this.chkShowTooltip.Name = "chkShowTooltip";
@@ -153,6 +159,7 @@
             // 
             // chkNoIPIntegration
             // 
+            this.chkPopup.Checked = allBoxesTicked;
             this.chkNoIPIntegration.AutoSize = true;
             this.chkNoIPIntegration.Location = new System.Drawing.Point(12, 177);
             this.chkNoIPIntegration.Name = "chkNoIPIntegration";
@@ -219,7 +226,7 @@
             // chkShowPassword
             // 
             this.chkShowPassword.AutoSize = true;
-            this.chkShowPassword.Enabled = false;
+            this.chkShowPassword.Enabled = true;
             this.chkShowPassword.Location = new System.Drawing.Point(192, 256);
             this.chkShowPassword.Name = "chkShowPassword";
             this.chkShowPassword.Size = new System.Drawing.Size(107, 17);
@@ -230,6 +237,7 @@
             // 
             // chkIPv6Support
             // 
+            this.chkPopup.Checked = allBoxesTicked;
             this.chkIPv6Support.AutoSize = true;
             this.chkIPv6Support.Location = new System.Drawing.Point(12, 45);
             this.chkIPv6Support.Name = "chkIPv6Support";
